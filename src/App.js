@@ -6,7 +6,7 @@ import { Box, Grid, Typography } from '@mui/material';
 function App() {
 
   const [products, setProducts] = useState([])
-  const [page, setPage] = useState(2)
+  const [page, setPage] = useState(1)
 
   const fetchProducts = async () => {
     try {
